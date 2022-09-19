@@ -83,6 +83,10 @@ img{
     display: flex;
 }
 
+#star{
+    color: orange;
+}   
+
 #reviews{
     padding-left: 5px;
     color: gray;
