@@ -120,6 +120,10 @@ img{
     font-weight: bold;
 }
 
+#slashed{
+    color: gray;
+}
+
 .scroll{
     scrollbar-width: normal;
     scrollbar-color: #777 #555;
