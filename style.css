@@ -1,0 +1,151 @@
+.full_page{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 75%;
+    height: 125;
+}
+
+.scroll{
+    width: 15%;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.card_boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 85%;
+    padding-top: 20px;
+}
+
+.small_box{
+    border-radius: 4px;
+    box-shadow: rgba(119, 119, 187, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    color: black;
+    background-color: #fff;
+    padding: 12px;
+    width: 85%;
+}
+
+.small_box .image{
+    display: flex;
+}
+
+.small_box .money{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ededed;
+    padding: 0px 5px 0px 5px;
+}
+
+#color_one{
+    color: gray;
+}
+
+#color_two{
+    color: purple;
+    font-weight: bold;
+}
+
+.section .two_color{
+    border: 1px solid #ededed;
+    padding: 4px 8px 4px 4px;
+    margin-top: 2px;
+}
+
+#konga{
+    color: deeppink;
+    font-weight: bolder;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 4px;
+}
+
+#now{
+    color: yellowgreen;
+    font-weight:bolder;
+    font-size:small;
+}
+
+.logo{
+    background-color:lavenderblush;
+    margin-right: 80px;
+    margin-top: 5px;
+}
+.star_ratings{
+    display: flex;
+}
+
+#reviews{
+    padding-left: 5px;
+    color: gray;
+}
+
+.section a{
+    text-decoration: none;
+    color: deeppink;
+    border: 2px solid deeppink;
+    border-radius: 4px;
+    margin-left: 25px;
+    padding: 4px 25px 4px 25px;
+}
+
+#percent{
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 150px;
+    font-size: x-small;
+    padding: 5px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin-left: 0%;
+    margin-right: 2px;
+}
+
+.model{
+    font-weight:bolder ;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#amount{
+    font-weight: bold;
+}
+
+.scroll{
+    scrollbar-width: normal;
+    scrollbar-color: #777 #555;
+}
+
+scroll::-webkit-scrollbar-thumb{
+    background-color: #777;
+}
+
+scroll::-webkit-scrollbar-track{
+    background-color: #555;
+}
+
+@media screen and (max-width: 768px){
+    .card_boxes{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .scroll{
+        width: 50%;
+        line-height: 1.5rem;
+        padding-right: 15px;
+    }
+
+    #percent{
+        margin-bottom: 180px;
+    }
+}
